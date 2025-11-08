@@ -45,8 +45,9 @@ struct Node {
 };
 
 struct DataLoader {
-  map<string, Node*> data;
+  map<string, Node*> data_map;
 
   vector<string> listSplitter(string list);
   DataLoader();
+  ~DataLoader();
 };
