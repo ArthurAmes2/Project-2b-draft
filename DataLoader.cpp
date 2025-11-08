@@ -1,4 +1,5 @@
 #include "DataLoader.h"
+#include "Grap.h"
 #include <string>
 
 Node::Node(string name,
@@ -36,7 +37,6 @@ vector<string> DataLoader::listSplitter(string list) {
 }
 
 DataLoader::DataLoader() {
-    int counter = 0; //DELETE
     ifstream data("../video_games.csv");
     if (!data.is_open()) {
         cerr << "Error opening csv " << endl;
@@ -95,11 +95,13 @@ DataLoader::DataLoader() {
             temp_genres,
             temp_publishers,
             temp_esrb_rating);
-        cout << ++counter << endl; //DELETE
-        data_map.insert(pair<string, Node*>(temp_name, new_node));
+        data_map.insert(pair<string, Node*>(temp_name, new_node)); //Store game objects
 
-        //TODO: call DS insert functions
-
+        //Insert into individual data structure implementations
+        Graph.insertVertex(data_map);
+        
+        //TODO: add insertion for B+ implementation when DS exists
+        
     }
 
 
