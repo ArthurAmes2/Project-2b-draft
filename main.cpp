@@ -6,10 +6,7 @@ using namespace std;
 int main() {
     DataLoader dataLoader;
     Graph gameGraph;
-
-    gameGraph.insertVertex(dataLoader.data_map);
-
-
+    gameGraph.insertVertexes(dataLoader.data_map);
 
     return 0;
  }

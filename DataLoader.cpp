@@ -95,12 +95,6 @@ DataLoader::DataLoader() {
             temp_publishers,
             temp_esrb_rating);
         data_map.insert(pair<string, Node*>(temp_name, new_node)); //Store game objects
-
-        //Insert into individual data structure implementations
-        Graph.insertVertex(data_map);
-        
-        //TODO: add insertion for B+ implementation when DS exists
-        
     }
 
 

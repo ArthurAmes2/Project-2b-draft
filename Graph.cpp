@@ -1,4 +1,3 @@
-
 #include "Graph.h"
 #include "DataLoader.h"
 #include <string>
@@ -8,9 +7,7 @@
 
 using namespace std;
 
-
-
-// Calculates the weight of a edge for two vertices
+// Calculates the weight of an edge for two vertices
 float Graph::weightCalculator(Node* v1, Node* v2){
 
         float weight = 0;
@@ -115,9 +112,9 @@ float Graph::weightCalculator(Node* v1, Node* v2){
 
 }
 
-// Insert vertex into the matrix
-// Takes in the data_map as a argument
-void Graph::insertVertex(map<string, Node*> &vertexMap) {
+// Insert all vertexes into the matrix
+// Takes in the data_map as an argument
+void Graph::insertVertexes(map<string, Node*> &vertexMap) {
 
     // Loop to add weight to each of the vertices
     for (auto v1 = vertexMap.begin(); v1 != vertexMap.end(); v1++){
