@@ -6,6 +6,7 @@
 #include <fstream>
 #include <map>
 #include <vector>
+#include "Graph.h"
 using namespace std;
 
 /*
