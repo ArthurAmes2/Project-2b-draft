@@ -4,11 +4,9 @@
 #include <map>
 #include <cmath>
 #include <vector>
+#include "DataLoader.h"
 
 using namespace std;
-
-// Prevents errors by saying node exists but will be defined elsewhere
-struct Node;
 
 class Graph {
 public:
