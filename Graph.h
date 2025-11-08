@@ -14,7 +14,5 @@ public:
 
     float weightCalculator(Node* v1, Node* v2);
 
-    void insertVertex(map<string, Node*> &vertexMap);
-
+    void insertVertexes(map<string, Node*> &vertexMap);
 };
-
