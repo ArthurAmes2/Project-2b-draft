@@ -1,0 +1,203 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"sfml_export_targets"
+		],
+		"files" : 
+		[
+			"externals/SFML/CMakeLists.txt",
+			"externals/SFML/cmake/Macros.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 318,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 418,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 436,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 442,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 529,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 445,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 449,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "devel",
+			"destination" : ".",
+			"paths" : 
+			[
+				"externals/SFML/include"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "share/doc/SFML",
+			"paths" : 
+			[
+				"externals/SFML/license.md"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "share/doc/SFML",
+			"paths" : 
+			[
+				"externals/SFML/readme.md"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				{
+					"from" : "externals/SFML/extlibs/bin/x64",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				{
+					"from" : "externals/SFML/extlibs/libs-mingw/x64",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/SFML",
+			"exportName" : "SFMLConfigExport",
+			"exportTargets" : 
+			[
+				{
+					"id" : "sfml-system::@730a7f4f6242a9b77a6b",
+					"index" : 5
+				},
+				{
+					"id" : "sfml-main::@51d23266f9989c459734",
+					"index" : 3
+				},
+				{
+					"id" : "sfml-window::@047706b0aaffe0ac9e51",
+					"index" : 6
+				},
+				{
+					"id" : "OpenGL::@047706b0aaffe0ac9e51",
+					"index" : 0
+				},
+				{
+					"id" : "sfml-network::@87498fadba035a18571d",
+					"index" : 4
+				},
+				{
+					"id" : "sfml-graphics::@bb3485ee6f961b2a690a",
+					"index" : 2
+				},
+				{
+					"id" : "Freetype::@bb3485ee6f961b2a690a",
+					"index" : 0
+				},
+				{
+					"id" : "OpenAL::@c57691ee098bc8300c1b",
+					"index" : 0
+				},
+				{
+					"id" : "VORBIS::@c57691ee098bc8300c1b",
+					"index" : 0
+				},
+				{
+					"id" : "FLAC::@c57691ee098bc8300c1b",
+					"index" : 0
+				},
+				{
+					"id" : "sfml-audio::@c57691ee098bc8300c1b",
+					"index" : 1
+				}
+			],
+			"paths" : 
+			[
+				"externals/SFML/CMakeFiles/Export/3937c6824958577f216dad0a66bc6149/SFMLSharedTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "devel",
+			"destination" : "lib/cmake/SFML",
+			"paths" : 
+			[
+				"cmake-build-debug/externals/SFML/SFMLConfig.cmake",
+				"cmake-build-debug/externals/SFML/SFMLConfigDependencies.cmake",
+				"cmake-build-debug/externals/SFML/SFMLConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "externals/SFML",
+		"source" : "externals/SFML"
+	}
+}

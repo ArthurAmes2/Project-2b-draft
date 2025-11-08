@@ -1,0 +1,1 @@
+-I"C:/Users/share/CLionProjects/Project-2b-draft/externals/SFML/include" -I"C:/Users/share/CLionProjects/Project-2b-draft/externals/SFML/src" -I"C:/Users/share/CLionProjects/Project-2b-draft/externals/SFML/extlibs/headers/vulkan" -isystem "C:/Users/share/CLionProjects/Project-2b-draft/externals/SFML/extlibs/headers/glad/include"
