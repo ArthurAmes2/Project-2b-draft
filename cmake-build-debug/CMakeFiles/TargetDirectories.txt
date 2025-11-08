@@ -1,0 +1,3 @@
+C:/Users/troop/CLionProjects/Project-2b-draft/cmake-build-debug/CMakeFiles/Project_2b_draft.dir
+C:/Users/troop/CLionProjects/Project-2b-draft/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/troop/CLionProjects/Project-2b-draft/cmake-build-debug/CMakeFiles/rebuild_cache.dir

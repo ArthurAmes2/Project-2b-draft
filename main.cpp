@@ -1,3 +1,8 @@
+#include "DataLoader.h"
+#include <iomanip>
+using namespace std;
+
 int main() {
-  return 0;
+    DataLoader dataLoader;
+    return 0;
  }
