@@ -53,6 +53,9 @@ DataLoader::DataLoader() {
         while (getline(iss, cell, ',')) {
             cells.push_back(cell);
         }
+        if (!line.empty()) {
+            cells.push_back("");
+        }
         //Data cleaning
         //Convert numerics and store
         int temp_metacritic = 0;
@@ -93,8 +96,16 @@ DataLoader::DataLoader() {
             temp_publishers,
             temp_esrb_rating);
         cout << ++counter << endl; //DELETE
-        this->data.insert(pair<string, Node*>(temp_name, new_node));
+        data_map.insert(pair<string, Node*>(temp_name, new_node));
 
         //TODO: call DS insert functions
+    }
+
+
+}
+
+DataLoader::~DataLoader() {
+    for (auto it = data_map.begin(); it != data_map.end(); it++) {
+        delete it->second;
     }
 }
