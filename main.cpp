@@ -1,6 +1,14 @@
+#include "DataLoader.h"
+#include "Graph.h"
+#include <iomanip>
+using namespace std;
 #include <SFML/Graphics.hpp>
 
 int main() {
+    DataLoader dataLoader;
+    Graph gameGraph;
+    gameGraph.insertVertexes(dataLoader.data_map);
+
 
     sf::RenderWindow window(sf::VideoMode(800, 600), "Video Game Recommendation Syst");
 
@@ -14,4 +22,4 @@ int main() {
         window.display();
     }
     return 0;
-}
+ }

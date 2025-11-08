@@ -27,7 +27,11 @@
 				}
 			],
 			"type" : "FILEPATH",
+<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/cache-v2-7621a49300630456e63e.json
 			"value" : "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/mingw/bin/addr2line.exe"
+========
+			"value" : "C:/Program Files/JetBrains/CLion 2025.2.1/bin/mingw/bin/addr2line.exe"
+>>>>>>>> 0d41e2494fee081b9def61be6d99113cc6e84c19:cmake-build-debug/.cmake/api/v1/reply/cache-v2-6ca051a4a46c6452d679.json
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -43,7 +47,11 @@
 				}
 			],
 			"type" : "FILEPATH",
+<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/cache-v2-7621a49300630456e63e.json
 			"value" : "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/mingw/bin/ar.exe"
+========
+			"value" : "C:/Program Files/JetBrains/CLion 2025.2.1/bin/mingw/bin/ar.exe"
+>>>>>>>> 0d41e2494fee081b9def61be6d99113cc6e84c19:cmake-build-debug/.cmake/api/v1/reply/cache-v2-6ca051a4a46c6452d679.json
 		},
 		{
 			"name" : "CMAKE_BUILD_TYPE",
@@ -67,7 +75,11 @@
 				}
 			],
 			"type" : "INTERNAL",
+<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/cache-v2-7621a49300630456e63e.json
 			"value" : "c:/Users/share/CLionProjects/Project-2b-draft/cmake-build-debug"
+========
+			"value" : "c:/Users/arthu/CLionProjects/Project-2b-draft/cmake-build-debug"
+>>>>>>>> 0d41e2494fee081b9def61be6d99113cc6e84c19:cmake-build-debug/.cmake/api/v1/reply/cache-v2-6ca051a4a46c6452d679.json
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -79,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "3"
+			"value" : "4"
 		},
 		{
 			"name" : "CMAKE_CACHE_MINOR_VERSION",
@@ -91,7 +103,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "30"
+			"value" : "0"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -103,7 +115,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "5"
+			"value" : "2"
 		},
 		{
 			"name" : "CMAKE_COLOR_DIAGNOSTICS",
@@ -143,7 +155,11 @@
 				}
 			],
 			"type" : "INTERNAL",
+<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/cache-v2-7621a49300630456e63e.json
 			"value" : "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/cmake/win/x64/bin/cmake.exe"
+========
+			"value" : "C:/Program Files/JetBrains/CLion 2025.2.1/bin/cmake/win/x64/bin/cmake.exe"
+>>>>>>>> 0d41e2494fee081b9def61be6d99113cc6e84c19:cmake-build-debug/.cmake/api/v1/reply/cache-v2-6ca051a4a46c6452d679.json
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -155,7 +171,11 @@
 				}
 			],
 			"type" : "INTERNAL",
+<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/cache-v2-7621a49300630456e63e.json
 			"value" : "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/cmake/win/x64/bin/cpack.exe"
+========
+			"value" : "C:/Program Files/JetBrains/CLion 2025.2.1/bin/cmake/win/x64/bin/cpack.exe"
+>>>>>>>> 0d41e2494fee081b9def61be6d99113cc6e84c19:cmake-build-debug/.cmake/api/v1/reply/cache-v2-6ca051a4a46c6452d679.json
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -167,7 +187,11 @@
 				}
 			],
 			"type" : "INTERNAL",
+<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/cache-v2-7621a49300630456e63e.json
 			"value" : "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/cmake/win/x64/bin/ctest.exe"
+========
+			"value" : "C:/Program Files/JetBrains/CLion 2025.2.1/bin/cmake/win/x64/bin/ctest.exe"
+>>>>>>>> 0d41e2494fee081b9def61be6d99113cc6e84c19:cmake-build-debug/.cmake/api/v1/reply/cache-v2-6ca051a4a46c6452d679.json
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -183,7 +207,11 @@
 				}
 			],
 			"type" : "FILEPATH",
+<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/cache-v2-7621a49300630456e63e.json
 			"value" : "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/mingw/bin/g++.exe"
+========
+			"value" : "C:/Program Files/JetBrains/CLion 2025.2.1/bin/mingw/bin/g++.exe"
+>>>>>>>> 0d41e2494fee081b9def61be6d99113cc6e84c19:cmake-build-debug/.cmake/api/v1/reply/cache-v2-6ca051a4a46c6452d679.json
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -199,7 +227,11 @@
 				}
 			],
 			"type" : "FILEPATH",
+<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/cache-v2-7621a49300630456e63e.json
 			"value" : "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/mingw/bin/gcc-ar.exe"
+========
+			"value" : "C:/Program Files/JetBrains/CLion 2025.2.1/bin/mingw/bin/gcc-ar.exe"
+>>>>>>>> 0d41e2494fee081b9def61be6d99113cc6e84c19:cmake-build-debug/.cmake/api/v1/reply/cache-v2-6ca051a4a46c6452d679.json
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_RANLIB",
@@ -215,7 +247,11 @@
 				}
 			],
 			"type" : "FILEPATH",
+<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/cache-v2-7621a49300630456e63e.json
 			"value" : "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/mingw/bin/gcc-ranlib.exe"
+========
+			"value" : "C:/Program Files/JetBrains/CLion 2025.2.1/bin/mingw/bin/gcc-ranlib.exe"
+>>>>>>>> 0d41e2494fee081b9def61be6d99113cc6e84c19:cmake-build-debug/.cmake/api/v1/reply/cache-v2-6ca051a4a46c6452d679.json
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -327,7 +363,11 @@
 				}
 			],
 			"type" : "FILEPATH",
+<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/cache-v2-7621a49300630456e63e.json
 			"value" : "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/mingw/bin/gcc.exe"
+========
+			"value" : "C:/Program Files/JetBrains/CLion 2025.2.1/bin/mingw/bin/gcc.exe"
+>>>>>>>> 0d41e2494fee081b9def61be6d99113cc6e84c19:cmake-build-debug/.cmake/api/v1/reply/cache-v2-6ca051a4a46c6452d679.json
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -343,7 +383,11 @@
 				}
 			],
 			"type" : "FILEPATH",
+<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/cache-v2-7621a49300630456e63e.json
 			"value" : "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/mingw/bin/gcc-ar.exe"
+========
+			"value" : "C:/Program Files/JetBrains/CLion 2025.2.1/bin/mingw/bin/gcc-ar.exe"
+>>>>>>>> 0d41e2494fee081b9def61be6d99113cc6e84c19:cmake-build-debug/.cmake/api/v1/reply/cache-v2-6ca051a4a46c6452d679.json
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_RANLIB",
@@ -359,7 +403,11 @@
 				}
 			],
 			"type" : "FILEPATH",
+<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/cache-v2-7621a49300630456e63e.json
 			"value" : "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/mingw/bin/gcc-ranlib.exe"
+========
+			"value" : "C:/Program Files/JetBrains/CLion 2025.2.1/bin/mingw/bin/gcc-ranlib.exe"
+>>>>>>>> 0d41e2494fee081b9def61be6d99113cc6e84c19:cmake-build-debug/.cmake/api/v1/reply/cache-v2-6ca051a4a46c6452d679.json
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -471,7 +519,11 @@
 				}
 			],
 			"type" : "FILEPATH",
+<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/cache-v2-7621a49300630456e63e.json
 			"value" : "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/mingw/bin/dlltool.exe"
+========
+			"value" : "C:/Program Files/JetBrains/CLion 2025.2.1/bin/mingw/bin/dlltool.exe"
+>>>>>>>> 0d41e2494fee081b9def61be6d99113cc6e84c19:cmake-build-debug/.cmake/api/v1/reply/cache-v2-6ca051a4a46c6452d679.json
 		},
 		{
 			"name" : "CMAKE_EXECUTABLE_FORMAT",
@@ -587,7 +639,11 @@
 				}
 			],
 			"type" : "STATIC",
+<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/cache-v2-7621a49300630456e63e.json
 			"value" : "C:/Users/share/CLionProjects/Project-2b-draft/cmake-build-debug/CMakeFiles/pkgRedirects"
+========
+			"value" : "C:/Users/arthu/CLionProjects/Project-2b-draft/cmake-build-debug/CMakeFiles/pkgRedirects"
+>>>>>>>> 0d41e2494fee081b9def61be6d99113cc6e84c19:cmake-build-debug/.cmake/api/v1/reply/cache-v2-6ca051a4a46c6452d679.json
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -659,6 +715,7 @@
 				}
 			],
 			"type" : "INTERNAL",
+<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/cache-v2-7621a49300630456e63e.json
 			"value" : "C:/Users/share/CLionProjects/Project-2b-draft"
 		},
 		{
@@ -852,6 +909,9 @@
 			],
 			"type" : "PATH",
 			"value" : "/usr/include"
+========
+			"value" : "C:/Users/arthu/CLionProjects/Project-2b-draft"
+>>>>>>>> 0d41e2494fee081b9def61be6d99113cc6e84c19:cmake-build-debug/.cmake/api/v1/reply/cache-v2-6ca051a4a46c6452d679.json
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -943,7 +1003,23 @@
 				}
 			],
 			"type" : "FILEPATH",
+<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/cache-v2-7621a49300630456e63e.json
 			"value" : "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/mingw/bin/ld.exe"
+========
+			"value" : "C:/Program Files/JetBrains/CLion 2025.2.1/bin/mingw/bin/ld.exe"
+		},
+		{
+			"name" : "CMAKE_LIST_FILE_NAME",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Name of CMakeLists files to read"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "CMakeLists.txt"
+>>>>>>>> 0d41e2494fee081b9def61be6d99113cc6e84c19:cmake-build-debug/.cmake/api/v1/reply/cache-v2-6ca051a4a46c6452d679.json
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -1055,7 +1131,11 @@
 				}
 			],
 			"type" : "FILEPATH",
+<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/cache-v2-7621a49300630456e63e.json
 			"value" : "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/mingw/bin/nm.exe"
+========
+			"value" : "C:/Program Files/JetBrains/CLion 2025.2.1/bin/mingw/bin/nm.exe"
+>>>>>>>> 0d41e2494fee081b9def61be6d99113cc6e84c19:cmake-build-debug/.cmake/api/v1/reply/cache-v2-6ca051a4a46c6452d679.json
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -1083,7 +1163,11 @@
 				}
 			],
 			"type" : "FILEPATH",
+<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/cache-v2-7621a49300630456e63e.json
 			"value" : "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/mingw/bin/objcopy.exe"
+========
+			"value" : "C:/Program Files/JetBrains/CLion 2025.2.1/bin/mingw/bin/objcopy.exe"
+>>>>>>>> 0d41e2494fee081b9def61be6d99113cc6e84c19:cmake-build-debug/.cmake/api/v1/reply/cache-v2-6ca051a4a46c6452d679.json
 		},
 		{
 			"name" : "CMAKE_OBJDUMP",
@@ -1099,7 +1183,11 @@
 				}
 			],
 			"type" : "FILEPATH",
+<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/cache-v2-7621a49300630456e63e.json
 			"value" : "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/mingw/bin/objdump.exe"
+========
+			"value" : "C:/Program Files/JetBrains/CLion 2025.2.1/bin/mingw/bin/objdump.exe"
+>>>>>>>> 0d41e2494fee081b9def61be6d99113cc6e84c19:cmake-build-debug/.cmake/api/v1/reply/cache-v2-6ca051a4a46c6452d679.json
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -1163,7 +1251,11 @@
 				}
 			],
 			"type" : "FILEPATH",
+<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/cache-v2-7621a49300630456e63e.json
 			"value" : "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/mingw/bin/ranlib.exe"
+========
+			"value" : "C:/Program Files/JetBrains/CLion 2025.2.1/bin/mingw/bin/ranlib.exe"
+>>>>>>>> 0d41e2494fee081b9def61be6d99113cc6e84c19:cmake-build-debug/.cmake/api/v1/reply/cache-v2-6ca051a4a46c6452d679.json
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER",
@@ -1179,7 +1271,11 @@
 				}
 			],
 			"type" : "FILEPATH",
+<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/cache-v2-7621a49300630456e63e.json
 			"value" : "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/mingw/bin/windres.exe"
+========
+			"value" : "C:/Program Files/JetBrains/CLion 2025.2.1/bin/mingw/bin/windres.exe"
+>>>>>>>> 0d41e2494fee081b9def61be6d99113cc6e84c19:cmake-build-debug/.cmake/api/v1/reply/cache-v2-6ca051a4a46c6452d679.json
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER_WORKS",
@@ -1287,7 +1383,11 @@
 				}
 			],
 			"type" : "FILEPATH",
+<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/cache-v2-7621a49300630456e63e.json
 			"value" : "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/mingw/bin/readelf.exe"
+========
+			"value" : "C:/Program Files/JetBrains/CLion 2025.2.1/bin/mingw/bin/readelf.exe"
+>>>>>>>> 0d41e2494fee081b9def61be6d99113cc6e84c19:cmake-build-debug/.cmake/api/v1/reply/cache-v2-6ca051a4a46c6452d679.json
 		},
 		{
 			"name" : "CMAKE_ROOT",
@@ -1299,7 +1399,11 @@
 				}
 			],
 			"type" : "INTERNAL",
+<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/cache-v2-7621a49300630456e63e.json
 			"value" : "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/cmake/win/x64/share/cmake-3.30"
+========
+			"value" : "C:/Program Files/JetBrains/CLion 2025.2.1/bin/cmake/win/x64/share/cmake-4.0"
+>>>>>>>> 0d41e2494fee081b9def61be6d99113cc6e84c19:cmake-build-debug/.cmake/api/v1/reply/cache-v2-6ca051a4a46c6452d679.json
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1507,7 +1611,11 @@
 				}
 			],
 			"type" : "FILEPATH",
+<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/cache-v2-7621a49300630456e63e.json
 			"value" : "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/mingw/bin/strip.exe"
+========
+			"value" : "C:/Program Files/JetBrains/CLion 2025.2.1/bin/mingw/bin/strip.exe"
+>>>>>>>> 0d41e2494fee081b9def61be6d99113cc6e84c19:cmake-build-debug/.cmake/api/v1/reply/cache-v2-6ca051a4a46c6452d679.json
 		},
 		{
 			"name" : "CMAKE_TAPI",
@@ -1979,7 +2087,11 @@
 				}
 			],
 			"type" : "STATIC",
+<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/cache-v2-7621a49300630456e63e.json
 			"value" : "C:/Users/share/CLionProjects/Project-2b-draft/cmake-build-debug"
+========
+			"value" : "C:/Users/arthu/CLionProjects/Project-2b-draft/cmake-build-debug"
+>>>>>>>> 0d41e2494fee081b9def61be6d99113cc6e84c19:cmake-build-debug/.cmake/api/v1/reply/cache-v2-6ca051a4a46c6452d679.json
 		},
 		{
 			"name" : "Project_2b_draft_IS_TOP_LEVEL",
@@ -2003,6 +2115,7 @@
 				}
 			],
 			"type" : "STATIC",
+<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/cache-v2-7621a49300630456e63e.json
 			"value" : "C:/Users/share/CLionProjects/Project-2b-draft"
 		},
 		{
@@ -2344,6 +2457,9 @@
 			],
 			"type" : "STATIC",
 			"value" : "general;sfml-system;general;winmm;general;gdi32;"
+========
+			"value" : "C:/Users/arthu/CLionProjects/Project-2b-draft"
+>>>>>>>> 0d41e2494fee081b9def61be6d99113cc6e84c19:cmake-build-debug/.cmake/api/v1/reply/cache-v2-6ca051a4a46c6452d679.json
 		}
 	],
 	"kind" : "cache",
