@@ -1,16 +1,18 @@
-//
-// Created by share on 11/2/2025.
-//
+#pragma once
+#include <iostream>
+#include <string>
+#include <map>
+#include <cmath>
+#include <vector>
+#include "DataLoader.h"
 
-#ifndef DATA_STRUCTURE_1_H
-#define DATA_STRUCTURE_1_H
-
-
+using namespace std;
 
 class Graph {
+public:
+    map <string, map<string, float>> graphMatrix;
 
+    float weightCalculator(Node::Node* v1, Node::Node* v2);
+
+    void insertVertexes(map<string, Node*> &vertexMap);
 };
-
-
-
-#endif //DATA_STRUCTURE_1_H
