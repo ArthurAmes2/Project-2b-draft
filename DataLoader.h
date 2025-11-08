@@ -6,7 +6,6 @@
 #include <fstream>
 #include <map>
 #include <vector>
-#include "Graph.h"
 using namespace std;
 
 /*
@@ -45,8 +44,9 @@ struct Node {
 };
 
 struct DataLoader {
-  map<string, Node*> data;
+  map<string, Node*> data_map;
 
   vector<string> listSplitter(string list);
   DataLoader();
+  ~DataLoader();
 };
