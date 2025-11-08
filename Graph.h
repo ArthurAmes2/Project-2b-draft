@@ -12,7 +12,7 @@ class Graph {
 public:
     map <string, map<string, float>> graphMatrix;
 
-    float weightCalculator(Node* v1, Node* v2);
+    float weightCalculator(Node::Node* v1, Node::Node* v2);
 
     void insertVertexes(map<string, Node*> &vertexMap);
 };

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/troop/CLionProjects/Project-2b-draft/externals/SFML/src/SFML/Main
+# Install script for directory: C:/Users/share/CLionProjects/Project-2b-draft/externals/SFML/src/SFML/Main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,10 +34,10 @@ endif()
 
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/JetBrains/CLion 2024.3.1.1/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/mingw/bin/objdump.exe")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "devel" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/troop/CLionProjects/Project-2b-draft/cmake-build-debug/externals/SFML/lib/libsfml-main-d.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/share/CLionProjects/Project-2b-draft/cmake-build-debug/externals/SFML/lib/libsfml-main-d.a")
 endif()
 
