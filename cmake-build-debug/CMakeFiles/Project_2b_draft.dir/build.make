@@ -71,20 +71,20 @@ include CMakeFiles/Project_2b_draft.dir/flags.make
 CMakeFiles/Project_2b_draft.dir/codegen:
 .PHONY : CMakeFiles/Project_2b_draft.dir/codegen
 
-CMakeFiles/Project_2b_draft.dir/Graph.cpp.obj: CMakeFiles/Project_2b_draft.dir/flags.make
-CMakeFiles/Project_2b_draft.dir/Graph.cpp.obj: CMakeFiles/Project_2b_draft.dir/includes_CXX.rsp
-CMakeFiles/Project_2b_draft.dir/Graph.cpp.obj: C:/Users/arthu/CLionProjects/Project-2b-draft/Graph.cpp
-CMakeFiles/Project_2b_draft.dir/Graph.cpp.obj: CMakeFiles/Project_2b_draft.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\arthu\CLionProjects\Project-2b-draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Project_2b_draft.dir/Graph.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Project_2b_draft.dir/Graph.cpp.obj -MF CMakeFiles\Project_2b_draft.dir\Graph.cpp.obj.d -o CMakeFiles\Project_2b_draft.dir\Graph.cpp.obj -c C:\Users\arthu\CLionProjects\Project-2b-draft\Graph.cpp
+CMakeFiles/Project_2b_draft.dir/graph.cpp.obj: CMakeFiles/Project_2b_draft.dir/flags.make
+CMakeFiles/Project_2b_draft.dir/graph.cpp.obj: CMakeFiles/Project_2b_draft.dir/includes_CXX.rsp
+CMakeFiles/Project_2b_draft.dir/graph.cpp.obj: C:/Users/arthu/CLionProjects/Project-2b-draft/graph.cpp
+CMakeFiles/Project_2b_draft.dir/graph.cpp.obj: CMakeFiles/Project_2b_draft.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\arthu\CLionProjects\Project-2b-draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Project_2b_draft.dir/graph.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Project_2b_draft.dir/graph.cpp.obj -MF CMakeFiles\Project_2b_draft.dir\graph.cpp.obj.d -o CMakeFiles\Project_2b_draft.dir\graph.cpp.obj -c C:\Users\arthu\CLionProjects\Project-2b-draft\graph.cpp
 
-CMakeFiles/Project_2b_draft.dir/Graph.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Project_2b_draft.dir/Graph.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\Project-2b-draft\Graph.cpp > CMakeFiles\Project_2b_draft.dir\Graph.cpp.i
+CMakeFiles/Project_2b_draft.dir/graph.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Project_2b_draft.dir/graph.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\Project-2b-draft\graph.cpp > CMakeFiles\Project_2b_draft.dir\graph.cpp.i
 
-CMakeFiles/Project_2b_draft.dir/Graph.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Project_2b_draft.dir/Graph.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\Project-2b-draft\Graph.cpp -o CMakeFiles\Project_2b_draft.dir\Graph.cpp.s
+CMakeFiles/Project_2b_draft.dir/graph.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Project_2b_draft.dir/graph.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\Project-2b-draft\graph.cpp -o CMakeFiles\Project_2b_draft.dir\graph.cpp.s
 
 CMakeFiles/Project_2b_draft.dir/DataLoader.cpp.obj: CMakeFiles/Project_2b_draft.dir/flags.make
 CMakeFiles/Project_2b_draft.dir/DataLoader.cpp.obj: CMakeFiles/Project_2b_draft.dir/includes_CXX.rsp
@@ -118,14 +118,14 @@ CMakeFiles/Project_2b_draft.dir/main.cpp.s: cmake_force
 
 # Object files for target Project_2b_draft
 Project_2b_draft_OBJECTS = \
-"CMakeFiles/Project_2b_draft.dir/Graph.cpp.obj" \
+"CMakeFiles/Project_2b_draft.dir/graph.cpp.obj" \
 "CMakeFiles/Project_2b_draft.dir/DataLoader.cpp.obj" \
 "CMakeFiles/Project_2b_draft.dir/main.cpp.obj"
 
 # External object files for target Project_2b_draft
 Project_2b_draft_EXTERNAL_OBJECTS =
 
-Project_2b_draft.exe: CMakeFiles/Project_2b_draft.dir/Graph.cpp.obj
+Project_2b_draft.exe: CMakeFiles/Project_2b_draft.dir/graph.cpp.obj
 Project_2b_draft.exe: CMakeFiles/Project_2b_draft.dir/DataLoader.cpp.obj
 Project_2b_draft.exe: CMakeFiles/Project_2b_draft.dir/main.cpp.obj
 Project_2b_draft.exe: CMakeFiles/Project_2b_draft.dir/build.make

@@ -152,29 +152,29 @@ DataLoader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_2b_draft.dir\build.make CMakeFiles/Project_2b_draft.dir/DataLoader.cpp.s
 .PHONY : DataLoader.cpp.s
 
-Graph.obj: Graph.cpp.obj
-.PHONY : Graph.obj
+graph.obj: graph.cpp.obj
+.PHONY : graph.obj
 
 # target to build an object file
-Graph.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_2b_draft.dir\build.make CMakeFiles/Project_2b_draft.dir/Graph.cpp.obj
-.PHONY : Graph.cpp.obj
+graph.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_2b_draft.dir\build.make CMakeFiles/Project_2b_draft.dir/graph.cpp.obj
+.PHONY : graph.cpp.obj
 
-Graph.i: Graph.cpp.i
-.PHONY : Graph.i
+graph.i: graph.cpp.i
+.PHONY : graph.i
 
 # target to preprocess a source file
-Graph.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_2b_draft.dir\build.make CMakeFiles/Project_2b_draft.dir/Graph.cpp.i
-.PHONY : Graph.cpp.i
+graph.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_2b_draft.dir\build.make CMakeFiles/Project_2b_draft.dir/graph.cpp.i
+.PHONY : graph.cpp.i
 
-Graph.s: Graph.cpp.s
-.PHONY : Graph.s
+graph.s: graph.cpp.s
+.PHONY : graph.s
 
 # target to generate assembly for a file
-Graph.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_2b_draft.dir\build.make CMakeFiles/Project_2b_draft.dir/Graph.cpp.s
-.PHONY : Graph.cpp.s
+graph.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_2b_draft.dir\build.make CMakeFiles/Project_2b_draft.dir/graph.cpp.s
+.PHONY : graph.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -212,9 +212,9 @@ help:
 	@echo ... DataLoader.obj
 	@echo ... DataLoader.i
 	@echo ... DataLoader.s
-	@echo ... Graph.obj
-	@echo ... Graph.i
-	@echo ... Graph.s
+	@echo ... graph.obj
+	@echo ... graph.i
+	@echo ... graph.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

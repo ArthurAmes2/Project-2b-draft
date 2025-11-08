@@ -1,16 +1,22 @@
-//
-// Created by share on 11/2/2025.
-//
+#pragma once
+#include <iostream>
+#include <string>
+#include <map>
+#include <cmath>
+#include <vector>
 
-#ifndef DATA_STRUCTURE_1_H
-#define DATA_STRUCTURE_1_H
+using namespace std;
 
-
+// Prevents errors by saying node exists but will be defined elsewhere
+struct Node;
 
 class Graph {
+public:
+    map <string, map<string, float>> graphMatrix;
+
+    float weightCalculator(Node* v1, Node* v2);
+
+    void insertVertex(map<string, Node*> &vertexMap);
 
 };
 
-
-
-#endif //DATA_STRUCTURE_1_H

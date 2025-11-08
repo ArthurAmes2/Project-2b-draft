@@ -99,6 +99,7 @@ DataLoader::DataLoader() {
         data_map.insert(pair<string, Node*>(temp_name, new_node));
 
         //TODO: call DS insert functions
+
     }
 
 
