@@ -25,6 +25,9 @@ Node::Node(string name,
     this->esrb_rating = esrb_rating;
 }
 
+bool Node::matches(string attribute, string value) {
+}
+
 
 vector<string> DataLoader::listSplitter(string list) {
     vector<string> result;
@@ -36,7 +39,6 @@ vector<string> DataLoader::listSplitter(string list) {
 }
 
 DataLoader::DataLoader() {
-    int counter = 0; //DELETE
     ifstream data("../video_games.csv");
     if (!data.is_open()) {
         cerr << "Error opening csv " << endl;
@@ -52,6 +54,9 @@ DataLoader::DataLoader() {
         //Iterate through each column and pushback into cells vector
         while (getline(iss, cell, ',')) {
             cells.push_back(cell);
+        }
+        if (!line.empty()) {
+            cells.push_back("");
         }
         //Data cleaning
         //Convert numerics and store
@@ -92,9 +97,13 @@ DataLoader::DataLoader() {
             temp_genres,
             temp_publishers,
             temp_esrb_rating);
-        cout << ++counter << endl; //DELETE
-        this->data.insert(pair<string, Node*>(temp_name, new_node));
+        data_map.insert(pair<string, Node*>(temp_name, new_node)); //Store game objects
+    }
 
-        //TODO: call DS insert functions
+}
+
+DataLoader::~DataLoader() {
+    for (auto it = data_map.begin(); it != data_map.end(); it++) {
+        delete it->second;
     }
 }

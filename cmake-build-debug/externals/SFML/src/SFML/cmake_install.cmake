@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/share/CLionProjects/Project-2b-draft/externals/SFML/src/SFML
+# Install script for directory: C:/Users/troop/CLionProjects/Project-2b-draft/externals/SFML/src/SFML
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,17 +34,17 @@ endif()
 
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/JetBrains/CLion 2024.3.1.1/bin/mingw/bin/objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/share/CLionProjects/Project-2b-draft/cmake-build-debug/externals/SFML/src/SFML/System/cmake_install.cmake")
-  include("C:/Users/share/CLionProjects/Project-2b-draft/cmake-build-debug/externals/SFML/src/SFML/Main/cmake_install.cmake")
-  include("C:/Users/share/CLionProjects/Project-2b-draft/cmake-build-debug/externals/SFML/src/SFML/Window/cmake_install.cmake")
-  include("C:/Users/share/CLionProjects/Project-2b-draft/cmake-build-debug/externals/SFML/src/SFML/Network/cmake_install.cmake")
-  include("C:/Users/share/CLionProjects/Project-2b-draft/cmake-build-debug/externals/SFML/src/SFML/Graphics/cmake_install.cmake")
-  include("C:/Users/share/CLionProjects/Project-2b-draft/cmake-build-debug/externals/SFML/src/SFML/Audio/cmake_install.cmake")
+  include("C:/Users/troop/CLionProjects/Project-2b-draft/cmake-build-debug/externals/SFML/src/SFML/System/cmake_install.cmake")
+  include("C:/Users/troop/CLionProjects/Project-2b-draft/cmake-build-debug/externals/SFML/src/SFML/Main/cmake_install.cmake")
+  include("C:/Users/troop/CLionProjects/Project-2b-draft/cmake-build-debug/externals/SFML/src/SFML/Window/cmake_install.cmake")
+  include("C:/Users/troop/CLionProjects/Project-2b-draft/cmake-build-debug/externals/SFML/src/SFML/Network/cmake_install.cmake")
+  include("C:/Users/troop/CLionProjects/Project-2b-draft/cmake-build-debug/externals/SFML/src/SFML/Graphics/cmake_install.cmake")
+  include("C:/Users/troop/CLionProjects/Project-2b-draft/cmake-build-debug/externals/SFML/src/SFML/Audio/cmake_install.cmake")
 
 endif()
 

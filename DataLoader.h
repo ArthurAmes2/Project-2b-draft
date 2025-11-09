@@ -6,7 +6,6 @@
 #include <fstream>
 #include <map>
 #include <vector>
-#include "Graph.h"
 using namespace std;
 
 /*
@@ -42,11 +41,14 @@ struct Node {
     vector<string> genres,
     vector<string> publishers,
     string esrb_rating);
+
+  bool matches(string attribute, string value);
 };
 
 struct DataLoader {
-  map<string, Node*> data;
+  map<string, Node*> data_map;
 
   vector<string> listSplitter(string list);
   DataLoader();
+  ~DataLoader();
 };

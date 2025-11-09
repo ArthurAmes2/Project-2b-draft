@@ -12,7 +12,11 @@ class Graph {
 public:
     map <string, map<string, float>> graphMatrix;
 
-    float weightCalculator(Node::Node* v1, Node::Node* v2);
+    float weightCalculator(Node* v1, Node* v2);
 
-    void insertVertexes(map<string, Node*> &vertexMap);
+    void insertEdges(Node* node, map<string, Node*> &vertexMap);
+
+    vector<pair<string, float>> similaritySearch (string name, map<string, Node*> &vertexMap);
+
+    Node* gameSearch (string name, map<string, Node*> &vertexMap);
 };
