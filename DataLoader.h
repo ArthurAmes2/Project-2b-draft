@@ -41,6 +41,8 @@ struct Node {
     vector<string> genres,
     vector<string> publishers,
     string esrb_rating);
+
+  bool matches(string attribute, string value);
 };
 
 struct DataLoader {

@@ -25,6 +25,9 @@ Node::Node(string name,
     this->esrb_rating = esrb_rating;
 }
 
+bool Node::matches(string attribute, string value) {
+}
+
 
 vector<string> DataLoader::listSplitter(string list) {
     vector<string> result;
@@ -96,7 +99,6 @@ DataLoader::DataLoader() {
             temp_esrb_rating);
         data_map.insert(pair<string, Node*>(temp_name, new_node)); //Store game objects
     }
-
 
 }
 

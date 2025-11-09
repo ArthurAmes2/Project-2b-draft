@@ -6,8 +6,8 @@ using namespace std;
 
 int main() {
     DataLoader dataLoader;
+    map<string, Node*> data_map = dataLoader.data_map;
     Graph gameGraph;
-    gameGraph.insertVertexes(dataLoader.data_map);
 
     sf::RenderWindow window(sf::VideoMode(800, 600), "Video Game Recommendation System");
 
