@@ -12,11 +12,6 @@ int main() {
     Graph gameGraph;
     BPlusTree gameTree;
 
-    vector<pair<string, float>> temp = gameTree.similaritySearch("Red Entity", data_map);
-    for (auto pair : temp) {
-        cout << pair.first << " " << pair.second << endl;
-    }
-
     sf::RenderWindow window(sf::VideoMode(800, 600), "Video Game Recommendation System");
 
     while (window.isOpen()) {
