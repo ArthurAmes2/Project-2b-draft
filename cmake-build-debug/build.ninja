@@ -76,6 +76,15 @@ build CMakeFiles/Project_2b_draft.dir/Graph.cpp.obj: CXX_COMPILER__Project_2b_dr
   TARGET_COMPILE_PDB = CMakeFiles\Project_2b_draft.dir\
   TARGET_PDB = Project_2b_draft.pdb
 
+build CMakeFiles/Project_2b_draft.dir/BPlusTree.cpp.obj: CXX_COMPILER__Project_2b_draft_unscanned_Debug C$:/Users/troop/CLionProjects/Project-2b-draft/BPlusTree.cpp || cmake_object_order_depends_target_Project_2b_draft
+  DEP_FILE = CMakeFiles\Project_2b_draft.dir\BPlusTree.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/troop/CLionProjects/Project-2b-draft/externals/SFML/include
+  OBJECT_DIR = CMakeFiles\Project_2b_draft.dir
+  OBJECT_FILE_DIR = CMakeFiles\Project_2b_draft.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Project_2b_draft.dir\
+  TARGET_PDB = Project_2b_draft.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Project_2b_draft
@@ -84,7 +93,7 @@ build CMakeFiles/Project_2b_draft.dir/Graph.cpp.obj: CXX_COMPILER__Project_2b_dr
 #############################################
 # Link the executable Project_2b_draft.exe
 
-build Project_2b_draft.exe: CXX_EXECUTABLE_LINKER__Project_2b_draft_Debug CMakeFiles/Project_2b_draft.dir/main.cpp.obj CMakeFiles/Project_2b_draft.dir/DataLoader.cpp.obj CMakeFiles/Project_2b_draft.dir/Graph.cpp.obj | externals/SFML/lib/libsfml-graphics-d.a externals/SFML/lib/libsfml-window-d.a externals/SFML/lib/libsfml-system-d.a || externals/SFML/lib/sfml-graphics-d-2.dll externals/SFML/lib/sfml-system-d-2.dll externals/SFML/lib/sfml-window-d-2.dll
+build Project_2b_draft.exe: CXX_EXECUTABLE_LINKER__Project_2b_draft_Debug CMakeFiles/Project_2b_draft.dir/main.cpp.obj CMakeFiles/Project_2b_draft.dir/DataLoader.cpp.obj CMakeFiles/Project_2b_draft.dir/Graph.cpp.obj CMakeFiles/Project_2b_draft.dir/BPlusTree.cpp.obj | externals/SFML/lib/libsfml-graphics-d.a externals/SFML/lib/libsfml-window-d.a externals/SFML/lib/libsfml-system-d.a || externals/SFML/lib/sfml-graphics-d-2.dll externals/SFML/lib/sfml-system-d-2.dll externals/SFML/lib/sfml-window-d-2.dll
   FLAGS = -g
   LINK_LIBRARIES = externals/SFML/lib/libsfml-graphics-d.a  externals/SFML/lib/libsfml-window-d.a  externals/SFML/lib/libsfml-system-d.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Project_2b_draft.dir

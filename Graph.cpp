@@ -10,13 +10,12 @@
 using namespace std;
 
 //Helper for weightCalculator
-float similarity(float a, float b, float maxDiff) {
+float Graph::similarity(float a, float b, float maxDiff) {
     float diff = abs(a - b);
     float sim = 1.0f - (diff / maxDiff);
     if (sim < 0) sim = 0;
     return sim*2.35;
 }
-
 
 // Calculates the weight of an edge for two vertices
 float Graph::weightCalculator(Node* v1, Node* v2){
