@@ -25,10 +25,6 @@ Node::Node(string name,
     this->esrb_rating = esrb_rating;
 }
 
-bool Node::matches(string attribute, string value) {
-}
-
-
 vector<string> DataLoader::listSplitter(string list) {
     vector<string> result;
     while (list.find("||") != string::npos) {
