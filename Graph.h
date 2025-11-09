@@ -12,7 +12,8 @@ class Graph {
 public:
     map <string, map<string, float>> graphMatrix;
 
-    float weightCalculator(Node* v1, Node* v2);
+    float similarity(float a, float b, float maxDiff); //Helper for weightCalculator
+    float weightCalculator(Node* v1, Node* v2); //Helper for similaritySearch
 
     void insertEdges(Node* node, map<string, Node*> &vertexMap);
 

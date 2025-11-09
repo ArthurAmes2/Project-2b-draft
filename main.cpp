@@ -1,6 +1,8 @@
 #include "DataLoader.h"
 #include "Graph.h"
 #include <iomanip>
+
+#include "BPlusTree.h"
 using namespace std;
 #include <SFML/Graphics.hpp>
 
@@ -8,6 +10,7 @@ int main() {
     DataLoader dataLoader;
     map<string, Node*> data_map = dataLoader.data_map;
     Graph gameGraph;
+    BPlusTree gameTree;
 
     sf::RenderWindow window(sf::VideoMode(800, 600), "Video Game Recommendation System");
 

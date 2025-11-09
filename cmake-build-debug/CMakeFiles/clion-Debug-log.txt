@@ -25,6 +25,6 @@
 -- Found OpenAL: C:/Users/troop/CLionProjects/Project-2b-draft/externals/SFML/extlibs/libs-mingw/x64/libopenal32.a
 -- Found VORBIS: C:/Users/troop/CLionProjects/Project-2b-draft/externals/SFML/extlibs/libs-mingw/x64/libvorbisenc.a;C:/Users/troop/CLionProjects/Project-2b-draft/externals/SFML/extlibs/libs-mingw/x64/libvorbisfile.a;C:/Users/troop/CLionProjects/Project-2b-draft/externals/SFML/extlibs/libs-mingw/x64/libvorbis.a;C:/Users/troop/CLionProjects/Project-2b-draft/externals/SFML/extlibs/libs-mingw/x64/libogg.a
 -- Found FLAC: C:/Users/troop/CLionProjects/Project-2b-draft/externals/SFML/extlibs/libs-mingw/x64/libFLAC.a
--- Configuring done (7.4s)
+-- Configuring done (6.7s)
 -- Generating done (0.3s)
 -- Build files have been written to: C:/Users/troop/CLionProjects/Project-2b-draft/cmake-build-debug

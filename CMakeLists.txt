@@ -11,6 +11,8 @@ add_executable(Project_2b_draft
         DataLoader.h
         Graph.cpp
         Graph.h
+        BPlusTree.cpp
+        BPlusTree.h
 )
 #using SFML version 2.5.1 referenced from COP3530C
 target_link_libraries(Project_2b_draft PRIVATE sfml-graphics sfml-window sfml-system)

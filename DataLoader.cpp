@@ -31,6 +31,7 @@ vector<string> DataLoader::listSplitter(string list) {
         result.push_back(list.substr(0, list.find("||")));
         list = list.substr(list.find("||")+2);
     }
+    result.push_back(list);
     return result;
 }
 
